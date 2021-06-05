@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSCE TechFest</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/ff706d7b10.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+
+
+</head>
+
+<body>
+
+    <h1>Welcome to DSCE TechFest 💻</h1>
+
+    <img src="./images/techfest img.jpeg" alt="image of 2020 techfest" srcset="">
+
+
+    <h2>Register here <i class="fas fa-arrow-down"></i> </h2>
+
+    <div class="form">
+        <form onsubmit="return false">
+            <label for="name">Name</label>
+            <input type="text" name="Name" id="name">
+
+            <label for="usn">USN</label>
+            <input type="text" name="USN" id="usn">
+
+            <label for="events">Event</label>
+            <select name="Events" id="events">
+                <option hidden>Select an event</option>
+                <option value="Codeathon">Codeathon</option>
+                <option value="Typing Champ">Typing Champ</option>
+                <option value="Build your BOT">Build your BOT</option>
+                <option value="Tech quiz">Tech Quiz</option>
+            </select>
+
+            <button value="submit" id="submit" onclick="validate()">Submit</button>
+            <button id="cancel" onclick="window.location.reload()">Cancel</button>
+        </form>
+    </div>
+
+    <div class="footer">
+        <footer>
+            <p>Developed by Dheemanth Narasimha ⚡</p>
+        </footer>
+
+    </div>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
